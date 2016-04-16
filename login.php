@@ -1,6 +1,6 @@
 <html>
 	<head>
-		<title>HAI</title>
+		<title>GingerPeel - Login</title>
 	</head>
 	
 	<body>
