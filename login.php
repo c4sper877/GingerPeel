@@ -3,7 +3,7 @@
 		<title>HAI</title>
 	</head>
 	
-	<body>
+	<body bgcolor = black>
 		
 		<form action=loginDO.php method=post>
 		
