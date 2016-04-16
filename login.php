@@ -1,9 +1,9 @@
 <html>
 	<head>
-		<title>HAI</title>
+		<title>GingerPeel - Login</title>
 	</head>
 	
-	<body bgcolor = black>
+	<body>
 		
 		<form action=loginDO.php method=post>
 		
