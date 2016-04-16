@@ -1,5 +1,5 @@
 <?php
-#session_start();
+session_start();
 
 $user = $_POST['username'];
 $pass = md5($_POST['password']);
@@ -14,11 +14,14 @@ if(mysql_num_rows($result) == 1){
 	echo "Welcome back " . $user . "!";
 }
 else{
-	echo "Incorrect login details!";
+	echo '<h1><center>Incorrect login details!</center></h1>';
+	require_once('login.php');
 }
 
 
+#leenus'-- DROP TABLE details
 
+#'-- OR /*
 
 
 ?>
