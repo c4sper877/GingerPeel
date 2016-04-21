@@ -1,0 +1,73 @@
+/* BASIC THEME */
+a:link{
+	color: 000000;
+}
+a:visited{
+	color: 000000;
+}
+a:hover{
+	color: 333333;
+}
+
+body{
+	font-family: 'Elena';
+    font-size: 13px;
+    color:#333;
+}
+
+p {
+    padding: 10px;
+}
+
+
+
+
+
+/* TRANSPARENT DIV BOX */
+ div.transbox {
+    margin: 30px;
+    background-color: #aeaeae;
+    border: 1px solid black;
+    opacity: 0.8;
+    filter: alpha(opacity=60); /* For IE8 and earlier */
+	vertical-align: middle;
+}
+
+
+
+
+
+/* INPUT TEXT BOX */
+
+.inputTextBox {
+  display: inline-block;
+  -webkit-box-sizing: content-box;
+  -moz-box-sizing: content-box;
+  box-sizing: content-box;
+  padding: 6px 20px;
+  border: none;
+  -webkit-border-radius: 32px / 54px;
+  border-radius: 32px / 54px;
+  font: normal 18px/normal "Coda", Helvetica, sans-serif;
+  color: rgba(0,142,198,1);
+  -o-text-overflow: ellipsis;
+  text-overflow: ellipsis;
+  background: rgba(252,252,252,1);
+  -webkit-box-shadow: 0 1px 2px 0 rgba(0,0,0,0.2) inset;
+  box-shadow: 0 1px 2px 0 rgba(0,0,0,0.2) inset;
+  text-shadow: 1px 1px 0 rgba(255,255,255,0.66) ;
+  -webkit-transition: all 200ms cubic-bezier(0.42, 0, 0.58, 1);
+  -moz-transition: all 200ms cubic-bezier(0.42, 0, 0.58, 1);
+  -o-transition: all 200ms cubic-bezier(0.42, 0, 0.58, 1);
+  transition: all 200ms cubic-bezier(0.42, 0, 0.58, 1);
+}
+
+.inputTextBox:hover {
+  background: rgba(232,249,255,1);
+  -webkit-box-shadow: 0 2px 2px 0 rgba(90,90,90,0.2) inset;
+  box-shadow: 0 2px 2px 0 rgba(90,90,90,0.2) inset;
+}
+
+.inputTextBox:focus {
+  background: rgba(255,253,232,1);
+}

@@ -1,0 +1,23 @@
+img{
+	width: 24 px;
+	height: 24px;
+}
+
+.username{
+	font-size: 20px;
+}
+
+
+.message{
+	font-size:20px;
+}
+
+#wrapper{
+	border: 2px;
+	background: 000fff;
+}
+
+#shoutbox{
+	border: 2px;
+	background: 000fff;
+}
